@@ -3,6 +3,7 @@ const url = 'mongodb://localhost:27017';
 var dbo;
 
 module.exports = {
+
   insertNftsData: function (nfts, callback) {
     MongoClient.connect(url, { useUnifiedTopology: true }, function (err, client) {
       if (err) throw err;
@@ -15,6 +16,7 @@ module.exports = {
     })
   },
   getNftsData: async function () {
+
     let client = await MongoClient.connect(url, { useUnifiedTopology: true, useNewUrlParser: true });
     var dbo = client.db("NFT_DB");
     let collection = dbo.collection("nfts");
