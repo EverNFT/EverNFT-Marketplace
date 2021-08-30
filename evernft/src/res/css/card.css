@@ -1,0 +1,313 @@
+.nft-card {
+  /* width: 100%; */
+  width: 320px;
+  height: 348px;
+  color: #ffff;
+  /* background: #ffffff;
+
+  box-shadow: 0px 0px 1px rgba(20, 21, 26, 0.1),
+    0px 3px 6px rgba(71, 77, 87, 0.04), 0px 1px 2px rgba(20, 21, 26, 0.04); */
+  /* border-radius: 34px; */
+  border-radius: 16px;
+  margin: auto;
+  box-shadow: -1px 2px 7px 0px rgba(0, 0, 0, 0.75);
+  -webkit-box-shadow: -1px 2px 7px 0px rgba(0, 0, 0, 0.75);
+  -moz-box-shadow: -1px 2px 7px 0px rgba(0, 0, 0, 0.2);
+  background-image: linear-gradient(
+    to right bottom,
+    #03f1ff,
+    #00dcf7,
+    #00c8ed,
+    #00b3e1,
+    #009fd2,
+    #1696d1,
+    #2c8ccf,
+    #4082cb,
+    #627ed2,
+    #8378d3,
+    #a36fcf,
+    #c164c5
+  );
+}
+
+.nft-img {
+  width: 100%;
+  height: 260px;
+  object-fit: cover;
+  /* border-top-left-radius: 34px;
+  border-top-right-radius: 34px; */
+  border-top-left-radius: 16px;
+  border-top-right-radius: 16px;
+  overflow: hidden;
+}
+.connect-menu-avatar-bg {
+  background-color: #76808f;
+  border-radius: 100%;
+}
+
+.nft-card-name {
+  font-family: IBM Plex Sans, monospace;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 18px;
+  line-height: 28px;
+
+  letter-spacing: 0.35px;
+
+  color: #ffffff;
+  text-decoration: none;
+}
+
+@media only screen and (max-width: 520px) {
+  .nft-card-name {
+    font-size: 17px;
+    letter-spacing: 0.2px;
+    white-space: nowrap;
+  }
+}
+
+.nft-card-price {
+  font-family: IBM Plex Mono, serif;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 14px;
+
+  color: #ffffff;
+}
+
+.nft-card-bottom {
+  padding-top: 8px;
+  padding-right: 16px;
+  padding-left: 16px;
+  padding-bottom: 22px;
+  color: #ffffff;
+
+  align-items: flex-start;
+  display: flex;
+  flex-direction: column;
+
+  width: 100%;
+}
+
+.nft-create-card-bottom {
+  padding: 8px 18px;
+}
+
+.nft-card-buy-button {
+  height: 50px;
+  width: 300px;
+
+  /* Blue/500 */
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  background: #1773eb;
+  border-radius: 17px;
+}
+
+.nft-card-edit-button,
+.nft-drop-action-btn,
+.nft-delete-button {
+  height: 50px;
+  width: 100%;
+
+  /* Blue/500 */
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  background: #1773eb;
+  border-radius: 17px;
+}
+
+.nft-drop-action-btn {
+  width: 156px;
+  height: 50px;
+  margin-right: 4px;
+}
+
+.nft-delete-button {
+  background: #e64444;
+}
+
+.nft-card-buy-button-text {
+  text-align: center;
+  flex: 0 0 120px;
+
+  font-family: IBM Plex Sans;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 15px;
+  line-height: 110%;
+}
+
+.nft-owner-img {
+  width: 50px;
+  height: 50px;
+  margin: 4px 8px;
+}
+
+.nft-owner-img-bg {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  overflow: hidden;
+  background-color: #e6e8ea;
+
+  align-items: center;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+.owner-container {
+  padding-top: 4px;
+  padding-bottom: 4px;
+  cursor: pointer;
+  outline: none;
+}
+
+.creator-container {
+  padding-top: 4px;
+  padding-bottom: 4px;
+  cursor: pointer;
+  outline: none;
+}
+
+.owner-label {
+  font-style: normal;
+  font-weight: 500;
+  font-size: 12px;
+  /* identical to box height, or 255% */
+
+  letter-spacing: 0.35px;
+  text-transform: uppercase;
+
+  /* Blue-grey/500 */
+
+  color: #5e6673;
+}
+
+.owner-username {
+  font-style: normal;
+  font-weight: bold;
+  font-size: 15px;
+  /* identical to box height, or 187% */
+
+  letter-spacing: 0.35px;
+
+  /* Label Color / Light / Primary */
+
+  color: #000000;
+}
+
+.nft-create-fiat-value {
+  margin-left: 12px;
+  margin-right: 12px;
+  margin-bottom: 22px;
+
+  width: 261px;
+  height: 13px;
+
+  font-family: IBM Plex Mono;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 13px;
+  letter-spacing: 0.12px;
+
+  /* Label Color / Light / Secondary */
+
+  color: rgba(60, 60, 67, 0.6);
+}
+
+.card-bottom-price-likes {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+
+  flex-flow: row wrap;
+
+  width: 100%;
+
+  align-items: center;
+}
+
+.likes-div,
+.list-likes-div {
+  display: flex;
+  flex-direction: row;
+  background-color: #f2f2f2;
+  align-items: center;
+  padding-top: 6px;
+  padding-bottom: 6px;
+  padding-right: 8px;
+  padding-left: 8px;
+  border-radius: 24px;
+
+  max-height: 40px;
+}
+
+.list-likes-div {
+  background-color: #fbfbfb;
+}
+
+.like-count {
+  font-family: IBM Plex Mono;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 16px;
+  color: #76808f;
+
+  margin-left: 3px;
+  margin-right: 3px;
+}
+
+.like-icon-div {
+  margin-left: 3px;
+  margin-right: 3px;
+}
+
+.clickable-icon-love {
+  cursor: pointer;
+}
+
+.like-icon {
+  height: 12px;
+  width: 12px;
+}
+
+@media only screen and (max-width: 520px) {
+  .nft-card-name {
+    font-size: 17px;
+  }
+
+  .like-icon {
+    height: 14px;
+    width: 14px;
+  }
+
+  .like-count {
+    font-size: 14px;
+  }
+}
+
+.fiat-value,
+.fiat-price {
+  color: #76808f;
+}
+.horzonal-list {
+  width: 100%;
+  overflow-x: auto;
+  overflow-y: hidden;
+  white-space: nowrap;
+  scrollbar-width: none;
+  display: inline-flex;
+}
+.horzonal-list::-webkit-scrollbar {
+  display: none;
+  /* for Chrome, Safari, and Opera */
+}

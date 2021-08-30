@@ -1,0 +1,70 @@
+.top-trader-title {
+  margin-bottom: 18px;
+  margin-top: 24px;
+
+  font-family: IBM Plex Sans;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 28px;
+  line-height: 28px;
+  /* or 100% */
+
+  display: flex;
+  align-items: flex-end;
+  letter-spacing: 0.35px;
+
+  color: #000000;
+
+  cursor: pointer;
+}
+
+.trader-position {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+
+  font-family: IBM Plex Sans;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 13px;
+  line-height: 28px;
+
+  margin-right: 10px;
+
+  color: #5e6673;
+}
+
+.top-trader-item {
+  font-family: IBM Plex Sans;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 15px;
+
+  min-width: 185px;
+
+  display: inline-flex;
+  align-items: center;
+
+  margin-left: 8px;
+  margin-right: 8px;
+
+  color: #76808f;
+
+  cursor: pointer;
+
+  clear: both;
+}
+
+@media only screen and (max-width: 520px) {
+  .top-trader-title {
+    font-size: 24px;
+    line-height: 24px;
+    margin-bottom: 12px;
+    margin-top: 16px;
+  }
+
+  .explore-title {
+    font-size: 22px;
+    line-height: 24px;
+  }
+}

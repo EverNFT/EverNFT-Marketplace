@@ -1,0 +1,82 @@
+.dashboard-blue-card {
+  background-color: #1f77c5;
+  height: 360px;
+  width: 300px;
+  border-radius: 30px;
+  min-width: 300px;
+  margin: 0 10px;
+}
+.dashboard-card-avatar-container,
+.dashboard-card-text-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.dashboard-card-avatar img {
+  border-radius: 100%;
+  margin-top: -50px;
+  width: 100px;
+  height: 100px;
+}
+.dashboard-card-text {
+  color: #40daee;
+  margin-top: 10px;
+}
+.dashboard-card-body {
+  padding: 30px;
+}
+.dashboard-card-body div {
+  color: white;
+}
+.dashboard-card-body-row {
+  padding: 10px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.border-bottom {
+  border-bottom: 1px solid #b9daf7;
+}
+.dashboard-card-navlinks a {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  margin: 15px 10px;
+  font-weight: 900;
+  color: #b9daf7;
+  font-size: large;
+  text-transform: uppercase;
+  text-decoration: none;
+}
+
+.dashboard-page-layout {
+  padding: 50px 20px;
+  display: flex;
+  flex-direction: row;
+  /* justify-content: space-between; */
+}
+/* .dashboard-page-layout > div {
+  margin: 10px; */
+/* width: fit-content; */
+/* width: 350px; */
+/* } */
+.dashboard-page-layout:first-child {
+  margin: 10px;
+  width: 350px !important;
+}
+.dashboard-page-layout:last-child {
+  margin: 10px;
+  /* width: 350px !important; */
+  width: 100%;
+}
+.dashboard-nft-list {
+  display: flex;
+  flex-direction: row;
+  /* justify-content: space-between; */
+  flex-wrap: wrap;
+}
+.dashboard-nft-list-item {
+  /* margin: 10px; */
+  width: 25%;
+  margin: 0 10px;
+}

@@ -1,0 +1,30 @@
+.nft-container {
+  margin: auto;
+  padding: 16px;
+  margin-top: 30px;
+}
+
+.create-page-content {
+  margin-left: 8px;
+  margin-right: 8px;
+  margin-top: 30px;
+
+  padding: 8px;
+}
+
+.nft-card-detail-description {
+  text-align: start;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 15px;
+  line-height: 140%;
+
+  margin-top: 12px;
+  margin-bottom: 8px;
+
+  max-width: 450px;
+
+  color: rgba(0, 0, 0, 0.75);
+
+  white-space: pre-wrap;
+}
